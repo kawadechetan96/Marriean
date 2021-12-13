@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39824" started-at="2021-11-23T04:46:20Z" finished-at="2021-11-23T04:47:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39824" started-at="2021-11-23T04:46:20Z" finished-at="2021-11-23T04:47:00Z">
+      <class name="com.testpages.HomePageTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.testpages.HomePageTest@68c4039c]" name="launch" is-config="true" duration-ms="39745" started-at="2021-11-23T10:16:20Z" finished-at="2021-11-23T10:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verift_logintest()[pri:0, instance:com.testpages.HomePageTest@68c4039c]" name="verift_logintest" duration-ms="68" started-at="2021-11-23T10:17:00Z" finished-at="2021-11-23T10:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verift_logintest -->
+      </class> <!-- com.testpages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
