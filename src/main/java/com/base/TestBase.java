@@ -3,6 +3,7 @@ package com.base;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -35,6 +36,8 @@ public class TestBase {
 						driver=new ChromeDriver();
 					}
 					
+					driver.manage().deleteAllCookies();
+					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					driver.get(pro.getProperty("url"));
 					
 				}
