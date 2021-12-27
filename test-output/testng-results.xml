@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39824" started-at="2021-11-23T04:46:20Z" finished-at="2021-11-23T04:47:00Z">
+  <suite name="Default suite" duration-ms="32777" started-at="2021-12-18T13:37:47Z" finished-at="2021-12-18T13:38:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39824" started-at="2021-11-23T04:46:20Z" finished-at="2021-11-23T04:47:00Z">
+    <test name="Default test" duration-ms="32777" started-at="2021-12-18T13:37:47Z" finished-at="2021-12-18T13:38:20Z">
       <class name="com.testpages.HomePageTest">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.testpages.HomePageTest@68c4039c]" name="launch" is-config="true" duration-ms="39745" started-at="2021-11-23T10:16:20Z" finished-at="2021-11-23T10:17:00Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.testpages.HomePageTest@77caeb3e]" name="launch" is-config="true" duration-ms="32373" started-at="2021-12-18T19:07:47Z" finished-at="2021-12-18T19:08:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="verift_logintest()[pri:0, instance:com.testpages.HomePageTest@68c4039c]" name="verift_logintest" duration-ms="68" started-at="2021-11-23T10:17:00Z" finished-at="2021-11-23T10:17:00Z">
+        <test-method status="PASS" signature="verify_world_of_day_link_test()[pri:0, instance:com.testpages.HomePageTest@77caeb3e]" name="verify_world_of_day_link_test" duration-ms="193" started-at="2021-12-18T19:08:20Z" finished-at="2021-12-18T19:08:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verift_logintest -->
+        </test-method> <!-- verify_world_of_day_link_test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testpages.HomePageTest@77caeb3e]" name="teardown" is-config="true" duration-ms="210" started-at="2021-12-18T19:08:20Z" finished-at="2021-12-18T19:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.testpages.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

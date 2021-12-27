@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,6 +14,7 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	public static Properties pro;
+	public static Logger logger;
 	
 	
 				public TestBase()
@@ -39,6 +41,9 @@ public class TestBase {
 					driver.manage().deleteAllCookies();
 					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					driver.get(pro.getProperty("url"));
+					logger=Logger.getLogger(TestBase.class);
+					logger.info("**************************URL Launched*********************");
+					System.out.println("Master");
 					
 				}
 

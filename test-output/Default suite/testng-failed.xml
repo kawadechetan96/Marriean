@@ -6,7 +6,8 @@
       <class name="com.testpages.HomePageTest">
         <methods>
           <include name="launch"/>
-          <include name="verift_logintest"/>
+          <include name="teardown"/>
+          <include name="verify_world_of_day_link_test"/>
         </methods>
       </class> <!-- com.testpages.HomePageTest -->
     </classes>
